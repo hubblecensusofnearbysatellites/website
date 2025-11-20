@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hubble Census of Nearby Satellites</title>
+  <link rel="icon" type="image/png" href="HCNS_logo1.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    /* Fixed top nav bar */
+    .top-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid #ccc;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Navigation buttons */
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      background-color: #333;
+      color: white;
+    }
+
+    /* Image banner section */
+    .image-banner {
+      margin-top: 60px; /* offset for fixed nav */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .image-banner img {
+      width: auto;     
+      height: auto;     
+      max-width: 100%;    
+      display: block;      
+      margin: 0 auto;      
+    }
+
+    /* Main content */
+    .main-content {
+      background-color: white;
+      padding: 40px 20px;
+    }
+
+    .main-content h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .main-content p {
+      font-size: 18px;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fixed Navigation -->
+  <div class="top-nav">
+    <div class="logo">HCNS</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="members.html">Members</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <!-- Image Banner -->
+  <div class="image-banner">
+    <img src="HCNS_logo1.png" alt="Hubble Census of Nearby Satellites Banner">
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h2>About</h2>
+    <p>
+      The Hubble Census of Nearby Satellites is an international collaboration that seeks to deepen our understanding of low-mass galaxies. The group intends to use Hubble data to explore all satellite galaxies orbiting Milky Way-like galaxies within 10 megaparsecs. The survey aims to eliminate any potential bias that could be hidden within the Local Group. 
+    </p>
+  </div>
+
+</body>
+</html>
