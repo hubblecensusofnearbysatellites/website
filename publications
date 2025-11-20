@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications</title>
+  <link rel="icon" type="image/png" href="HCNS_logo1.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    /* Top nav bar */
+    .top-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid #ccc;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      background-color: #333;
+      color: white;
+    }
+
+    /* PDF container */
+    .pdf-container {
+      margin-top: 100px; /* offset for navbar */
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    iframe {
+      width: 90%;
+      height: 90vh;
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <div class="top-nav">
+    <div class="logo">HCNS</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="members.html">Members</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <div class="pdf-container">
+    <iframe src="paper.pdf"></iframe>
+  </div>
+
+</body>
+</html>
