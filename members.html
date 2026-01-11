@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Members</title>
   <link rel="icon" type="image/png" href="HCNS_logo1.png">
+
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
+
     body, html {
       height: 100%;
       font-family: Arial, sans-serif;
@@ -59,7 +61,7 @@
 
     /* Page-specific styling */
     main {
-      margin-top: 100px; /* offset for fixed nav */
+      margin-top: 100px;
       text-align: center;
       padding: 50px 20px;
     }
@@ -74,11 +76,56 @@
       font-size: 18px;
       color: #333;
       max-width: 800px;
-      margin: 0 auto;
+      margin: 0 auto 50px;
       line-height: 1.5;
+    }
+
+    /* Members grid */
+    .members-container {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .members-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .member {
+      flex: 1;
+      text-align: center;
+    }
+
+    .member img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .member-name {
+      font-weight: bold;
+      font-size: 18px;
+      color: #222;
+    }
+
+    .member-position {
+      font-size: 15px;
+      color: #555;
+    }
+
+    .member-location {
+      font-size: 14px;
+      color: #777;
     }
   </style>
 </head>
+
 <body>
 
   <!-- Navigation -->
@@ -94,6 +141,117 @@
   <main>
     <h1>Members</h1>
     <p>Will have the 14 members when pictures are secured.</p>
+
+    <div class="members-container">
+
+      <!-- Row 1: 5 members -->
+      <div class="members-row">
+        <div class="member">
+          <img src="member1.jpg" alt="Member 1">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member2.jpg" alt="Member 2">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member3.jpg" alt="Member 3">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member4.jpg" alt="Member 4">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member5.jpg" alt="Member 5">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+      </div>
+
+      <!-- Row 2: 5 members -->
+      <div class="members-row">
+        <div class="member">
+          <img src="member6.jpg" alt="Member 6">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member7.jpg" alt="Member 7">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member8.jpg" alt="Member 8">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member9.jpg" alt="Member 9">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member10.jpg" alt="Member 10">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+      </div>
+
+      <!-- Row 3: 4 members -->
+      <div class="members-row">
+        <div class="member">
+          <img src="member11.jpg" alt="Member 11">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member12.jpg" alt="Member 12">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member13.jpg" alt="Member 13">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+
+        <div class="member">
+          <img src="member14.jpg" alt="Member 14">
+          <div class="member-name">First Last</div>
+          <div class="member-position">Position Title</div>
+          <div class="member-location">City, State</div>
+        </div>
+      </div>
+
+    </div>
   </main>
 
 </body>
